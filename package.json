@@ -1,0 +1,32 @@
+{
+  "name": "express-boiler",
+  "version": "1.0.0",
+  "description": "express sequelize boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "redikawest",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.5.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "express-bearer-token": "^2.4.0",
+    "express-validation": "^4.1.0",
+    "express-validator": "^6.6.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.0",
+    "morgan-body": "^2.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.0"
+  }
+}
